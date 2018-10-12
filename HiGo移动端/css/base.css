@@ -1,0 +1,35 @@
+html,body,div,p,span,h1,h2,h3,h4,h5,a,i,em,img,input,ul,li,nav,header,footer,article,aside,textarea{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: normal;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+img{
+    vertical-align: top;
+    border: 0;
+}
+.left{
+    float: left;
+}
+.right{
+    float:right;
+}
+.clearfix:before,
+.clearfix:after{
+    content:"";
+    display:table;
+}
+.clearfix:after{
+    clear:both;
+}
+.clearfix{
+    *zoom:1;
+}

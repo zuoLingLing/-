@@ -1,0 +1,49 @@
+.contactBanner {
+  width: 100%;
+}
+.contactBanner img {
+  height: 279px;
+}
+.main {
+  width: 100%;
+}
+.main .contactUs {
+  width: 920px;
+  margin: 105px auto 85px;
+}
+.main .contactUs .con-left,
+.main .contactUs .con-middle,
+.main .contactUs .con-right {
+  width: 142px;
+}
+.main .contactUs .con-left p,
+.main .contactUs .con-middle p,
+.main .contactUs .con-right p {
+  text-align: center;
+  line-height: 35px;
+}
+.main .contactUs .con-left {
+  float: left;
+  margin-right: 240px;
+}
+.main .contactUs .con-middle {
+  float: left;
+}
+.main .contactUs .con-right {
+  float: right;
+}
+.return {
+  width: 60px;
+  height: 60px;
+  background: url(../images/top.png) no-repeat center 10px #484848;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 30px;
+  position: fixed;
+  bottom: 130px;
+  right: 80px;
+  text-align: center;
+  padding-top: 25px;
+  display: none;
+  z-index: 999;
+}

@@ -1,0 +1,541 @@
+body {
+  background-color: #f5f5f5;
+}
+.container {
+  width: 100%;
+  max-width: 768px;
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  position: relative;
+}
+.container header {
+  position: fixed;
+  top: 0;
+  max-width: 768px;
+  min-width: 320px;
+  width: 100%;
+  height: 40px;
+  padding: 5px 0;
+  position: relative;
+}
+.container header .back {
+  position: absolute;
+  top: 0;
+  left: 13px;
+  width: 35px;
+  line-height: 39px;
+  height: 30px;
+  font-size: 22px;
+  color: #545454;
+}
+.container header .search {
+  height: 30px;
+  margin: 0 118px 0 35px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding-left: 5px;
+}
+.container header .search-icon {
+  position: absolute;
+  left: 57%;
+  top: 11px;
+  font-size: 16px;
+  color: #545454;
+}
+.container header ul {
+  position: absolute;
+  top: 6px;
+  right: 0;
+}
+.container header ul li {
+  float: left;
+  width: 22px;
+  height: 20px;
+  margin: 0 7px;
+}
+.container header ul li a {
+  color: #545454;
+}
+.container header ul li a .home,
+.container header ul li a .people,
+.container header ul li a .share {
+  font-size: 20px;
+}
+.container .productList {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 5px;
+  position: relative;
+}
+.container .productList .list {
+  margin-right: 48px;
+}
+.container .productList .list li {
+  width: 25%;
+  height: 38px;
+  line-height: 38px;
+  border-right: 1px solid #EDEDED;
+  padding: 0 15px;
+  float: left;
+  position: relative;
+}
+.container .productList .list li a {
+  color: #222;
+  font-size: 14px;
+}
+.container .productList .list li a small {
+  border-width: 5px 5px 0;
+  border-style: solid;
+  border-color: #666 transparent #666;
+  position: absolute;
+  top: 17px;
+  right: 6px;
+}
+.container .productList .list li a em,
+.container .productList .list li a i {
+  border-style: solid;
+  border-color: #666 transparent #666;
+  position: absolute;
+  right: 6px;
+}
+.container .productList .list li a em {
+  border-width: 5px 5px 0;
+  top: 21px;
+}
+.container .productList .list li a i {
+  border-width: 0 5px 5px;
+  top: 14px;
+}
+.container .productList .list li a span {
+  position: absolute;
+  top: 12px;
+  right: 2px;
+  background: url(http://zmnew226.wap.dlszyht.com.cn/images/wap/new/screen_icon.png) no-repeat;
+  width: 19px;
+  height: 18px;
+  background-size: 15px;
+}
+.container .productList img {
+  position: absolute;
+  top: 4px;
+  right: 0;
+}
+.container .productList .detailPro {
+  width: 100%;
+  position: absolute;
+}
+.container .productList .detailPro .synthesize {
+  width: 100%;
+  height: 274px;
+  display: none;
+  background-color: #fff;
+}
+.container .productList .detailPro .synthesize ul {
+  width: 100%;
+  height: 100%;
+}
+.container .productList .detailPro .synthesize ul li {
+  height: 45px;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 50px;
+  border-top: 1px solid #EDEDED;
+  border-right: none;
+  line-height: 45px;
+  margin-left: 5px;
+  position: relative;
+}
+.container .productList .detailPro .synthesize ul li .actived {
+  color: #1E90FF;
+}
+.container .productList .detailPro .synthesize ul li .active {
+  border: 3px solid #64C400;
+}
+.container .productList .detailPro .synthesize ul li span {
+  float: left;
+  font-size: 13px;
+  color: #222;
+}
+.container .productList .detailPro .synthesize ul li em {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 45px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+.container .productList .detailPro .synthesize ul li em i {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border: 3px solid #D1D1D1;
+  border-radius: 9px;
+}
+.container .productList .detailPro .screen {
+  width: 100%;
+  height: 274px;
+  background-color: #fff;
+  position: relative;
+  display: none;
+}
+.container .productList .detailPro .screen li {
+  height: 54px;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 50px;
+  border-top: 1px solid #EDEDED;
+  border-right: none;
+  line-height: 54px;
+  margin-left: 5px;
+  position: relative;
+  margin-right: 5px;
+}
+.container .productList .detailPro .screen li span {
+  float: left;
+  font-size: 14px;
+  color: #222;
+}
+.container .productList .detailPro .screen li strong {
+  float: right;
+  color: #ccc;
+  font-size: 15px;
+  font-weight: normal;
+}
+.container .productList .detailPro .screen li em {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 54px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #ccc;
+}
+.container .productList .detailPro .screen li em i {
+  height: 13px;
+  width: 9px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+.container .productList .detailPro .screen .buttonSet {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+}
+.container .productList .detailPro .screen .buttonSet a {
+  float: left;
+  width: 50%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+}
+.container .productList .detailPro .screen .buttonSet a:first-of-type {
+  border-top: 1px solid #ccc;
+  color: #1E90FF;
+  background-color: #fff;
+}
+.container .productList .detailPro .screen .buttonSet a:last-of-type {
+  border-top: 1px solid #1E90FF;
+  color: #fff;
+  background-color: #1E90FF;
+}
+.container .customModuleRow {
+  width: 100%;
+  margin-bottom: 45px;
+}
+.container .customModuleRow ul li {
+  float: left;
+  width: 50%;
+}
+.container .customModuleRow ul li div {
+  margin: 0 2px 4px;
+  background-color: #fff;
+}
+.container .customModuleRow ul li div .imgPro {
+  width: 100%;
+  display: block;
+}
+.container .customModuleRow ul li div .imgPro img {
+  width: 100%;
+}
+.container .customModuleRow ul li div .text {
+  display: block;
+  margin: 5px 10px;
+}
+.container .customModuleRow ul li div .text p {
+  height: 72px;
+  font-size: 14px;
+  line-height: 24px;
+  overflow: hidden;
+  width: 100%;
+}
+.container .customModuleRow ul li div .price {
+  display: block;
+  color: #f00;
+  font-size: 14px;
+  margin: 0 10px 5px;
+}
+.container .customModuleRow ul li div .price span {
+  float: left;
+}
+.container .customModuleRow ul li div .price i {
+  float: right;
+  font-size: 20px;
+}
+.container .more {
+  width: 100%;
+  background-color: #eee;
+}
+.container .more .nav {
+  width: 32px;
+  height: 32px;
+  line-height: 30px;
+  position: fixed;
+  bottom: 60px;
+  left: 0;
+  border: 2px solid #fff;
+  background-color: #00aeff;
+  border-radius: 50%;
+  z-index: 99;
+  text-align: center;
+  box-shadow: -1px 1px 0 #00aeff, -1px -1px 0 #00aeff, 1px 1px 0 #00aeff, 1px -1px 0 #00aeff;
+}
+.container .more .nav span {
+  font-size: 18px;
+  color: #F8FAFD;
+  line-height: 5px;
+}
+.container footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  max-width: 768px;
+  min-width: 320px;
+  height: 42px;
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #dbdbdb;
+}
+.container footer ul {
+  width: 100%;
+  height: 100%;
+}
+.container footer ul li {
+  float: left;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+}
+.container footer ul li.active span,
+.container footer ul li.active p {
+  color: #00aeff;
+}
+.container footer ul li span {
+  font-size: 24px;
+  margin-top: 3px;
+  color: #505050;
+}
+.container footer ul li p {
+  font-size: 12px;
+  color: #505050;
+}
+.container .moreCategory {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  background-color: #333436;
+  z-index: 88;
+  display: none;
+}
+.container .moreCategory ul {
+  width: 100%;
+  padding-top: 10px;
+}
+.container .moreCategory ul li {
+  height: 35px;
+  line-height: 35px;
+  width: 100%;
+  border-bottom: 2px solid #45494C;
+  padding-right: 25px;
+  position: relative;
+}
+.container .moreCategory ul li .big {
+  position: absolute;
+  top: -8px;
+  left: 0;
+}
+.container .moreCategory ul li img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container .moreCategory ul li a {
+  float: right;
+  font-size: 17px;
+  color: #fff;
+  line-height: 35px;
+}
+.container .return {
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  bottom: 105px;
+  right: 15px;
+  display: none;
+}
+.container .return img {
+  width: 100%;
+  height: 100%;
+}
+.container .shoppingLayer {
+  position: fixed;
+  bottom: 42px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
+  display: none;
+}
+.container .parameter {
+  position: fixed;
+  bottom: 42px;
+  left: 0;
+  width: 100%;
+  max-width: 768px;
+  min-width: 320px;
+  z-index: 99;
+  display: none;
+}
+.container .parameter .proPic {
+  position: absolute;
+  top: -34px;
+  left: 10px;
+  width: 102px;
+  height: 102px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+.container .parameter .proPic img {
+  width: 100px;
+  height: 100px;
+  padding: 3px;
+}
+.container .parameter .proName {
+  background-color: #fff;
+  height: 77px;
+  padding-left: 128px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #EDEDED;
+}
+.container .parameter .proName p {
+  float: left;
+  width: 77%;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #3e3e3e;
+  line-height: 21px;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  height: auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container .parameter .proName .close {
+  float: right;
+  width: 32px;
+  height: 32px;
+  line-height: 25px;
+  border: 1px solid #9F9F9F;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  color: #9F9F9F;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.container .parameter .proName div {
+  font-size: 16px;
+  color: #f00;
+  font-weight: bold;
+}
+.container .parameter .quantity {
+  width: 100%;
+  padding: 25px 15px;
+  background-color: #fff;
+}
+.container .parameter .quantity .q-left {
+  float: left;
+  font-size: 14px;
+}
+.container .parameter .quantity .q-left span {
+  font-size: 18px;
+  color: #f00;
+}
+.container .parameter .quantity .q-right {
+  float: right;
+  width: 99px;
+  height: 25px;
+}
+.container .parameter .quantity .q-right ul {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.container .parameter .quantity .q-right ul li {
+  float: left;
+  height: 100%;
+}
+.container .parameter .quantity .q-right ul li.prev,
+.container .parameter .quantity .q-right ul li.next {
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  line-height: 100%;
+  font-size: 22px;
+  color: #242424;
+}
+.container .parameter .quantity .q-right ul li.shuLiang {
+  width: 50%;
+  height: 100%;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-align: center;
+}
+.container .parameter .addCare {
+  height: 50px;
+  width: 100%;
+  border-top: 1px solid #eee;
+  background-color: #fff;
+  font-size: 16px;
+  line-height: 50px;
+  color: #fff;
+  position: relative;
+}
+.container .parameter .addCare .intoCare {
+  float: right;
+  height: 100%;
+  width: 105px;
+  margin-right: 90px;
+  background-color: #FF6507;
+  text-align: center;
+}
+.container .parameter .addCare .buyNow {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 90px;
+  background-color: #ff8a00;
+  text-align: center;
+}
